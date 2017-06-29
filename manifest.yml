@@ -3,7 +3,7 @@ declared-services:
   my-tone-analyzer-service:
     label: tone_analyzer
     plan: lite
-applications:
+applications: drum-tone-analyser
 - services:
   - my-tone-analyzer-service
   name: tone-analyzer-demo
